@@ -16,8 +16,10 @@
     "url": "https://github.com/Roms1383/semantic-release-kroms.git"
   },
   "devDependencies": {
+    "@commitlint/cli": "^7.6.1",
     "@semantic-release/github": "^5.2.10",
     "@semantic-release/npm": "^5.1.7",
+    "commitlint-config-kroms": "^1.0.3",
     "ejs": "^2.6.1",
     "eslint": "^5.16.0",
     "eslint-config-kroms": "^1.0.1",
