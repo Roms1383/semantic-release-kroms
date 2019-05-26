@@ -5,6 +5,11 @@
   ],
   "packageRules": [
     {
+      "updateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ]
       "semanticCommitType": ":arrow_up:",
       "semanticCommitScope": null
     },
