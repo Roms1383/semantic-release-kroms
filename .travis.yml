@@ -17,7 +17,8 @@ jobs:
       script: yarn eslint '*.js'
     - stage: release
       install: true
-      script: yarn semantic-release
+      before_script: yarn global add semantic-release semantic-release-gitmoji @semantic-release/github @semantic-release/npm
+      script: npx semantic-release
       if: branch = master AND NOT tag
 matrix:
   fast_finish: true
