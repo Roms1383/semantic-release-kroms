@@ -13,7 +13,7 @@ module.exports = async gitmojis => {
     .join(', ')
   }
   const from = path.resolve(__dirname, 'templates', 'semantic-release')
-  const to = path.resolve(__dirname, '..', 'index.js')
+  const to = path.resolve(__dirname, '..', 'release.config.js')
   const rendered = await ejs.renderFile(from, data)
   fs.writeFileSync(to, rendered)
 }
