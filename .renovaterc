@@ -3,16 +3,9 @@
   "schedule": [
     "every weekend"
   ],
+  "semanticCommitType": ":arrow_up:",
+  "semanticCommitScope": null,
   "packageRules": [
-    {
-      "updateTypes": [
-        "major",
-        "minor",
-        "patch"
-      ],
-      "semanticCommitType": ":arrow_up:",
-      "semanticCommitScope": null
-    },
     {
       "updateTypes": [
         "lockFileMaintenance",
