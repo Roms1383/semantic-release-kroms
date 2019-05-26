@@ -20,6 +20,7 @@
     "@semantic-release/npm": "^5.1.7",
     "ejs": "^2.6.1",
     "eslint": "^5.16.0",
+    "eslint-config-kroms": "^1.0.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-node": "^9.1.0",
