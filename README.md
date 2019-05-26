@@ -21,7 +21,7 @@ npm install semantic-release-kroms --save-dev
 
 ## Usage
 
-Use in your favorite CI to trigger semantic release, example can be found in the `.travis.yml` of this repository (this preset uses itself to trigger its release too).
+Use in your favorite CI to trigger semantic release, example can be found in the `.travis.yml` of this repository (this plugin uses itself to trigger its release too).
 
 ## Update
 
