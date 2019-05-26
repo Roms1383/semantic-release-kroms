@@ -1,0 +1,422 @@
+{{#if compareUrl}}
+# [v{{nextRelease.version}}]({{compareUrl}}) ({{datetime "UTC:yyyy-mm-dd"}})
+{{else}}
+# v{{nextRelease.version}} ({{datetime "UTC:yyyy-mm-dd"}})
+{{/if}}
+
+{{#with commits}}
+
+{{#if boom}}
+## 💥 Introducing breaking changes
+{{#each boom}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if sparkles}}
+## ✨ Introducing new features
+{{#each sparkles}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if label}}
+## 🏷️ Adding or updating types (Flow, TypeScript)
+{{#each label}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if apple}}
+## 🍎 Fixing something on macOS
+{{#each apple}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if arrow-down}}
+## ⬇️ Downgrading dependencies
+{{#each arrow-down}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if arrow-up}}
+## ⬆️ Upgrading dependencies
+{{#each arrow-up}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if art}}
+## 🎨 Improving structure / format of the code
+{{#each art}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if beers}}
+## 🍻 Writing code drunkenly
+{{#each beers}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if bento}}
+## 🍱 Adding or updating assets
+{{#each bento}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if alembic}}
+## ⚗ Experimenting new things
+{{#each alembic}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if bug}}
+## 🐛 Fixing a bug
+{{#each bug}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if building-construction}}
+## 🏗 Making architectural changes
+{{#each building-construction}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if bulb}}
+## 💡 Documenting source code
+{{#each bulb}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if busts-in-silhouette}}
+## 👥 Adding contributor(s)
+{{#each busts-in-silhouette}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if camera-flash}}
+## 📸 Adding or updating snapshots
+{{#each camera-flash}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if card-file-box}}
+## 🗃 Performing database related changes
+{{#each card-file-box}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if chart-with-upwards-trend}}
+## 📈 Adding analytics or tracking code
+{{#each chart-with-upwards-trend}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if checkered-flag}}
+## 🏁 Fixing something on Windows
+{{#each checkered-flag}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if children-crossing}}
+## 🚸 Improving user experience / usability
+{{#each children-crossing}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if clown-face}}
+## 🤡 Mocking things
+{{#each clown-face}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if construction-worker}}
+## 👷 Adding CI build system
+{{#each construction-worker}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if egg}}
+## 🥚 Adding an easter egg
+{{#each egg}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if fire}}
+## 🔥 Removing code or files
+{{#each fire}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if globe-with-meridians}}
+## 🌐 Internationalization and localization
+{{#each globe-with-meridians}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if green-apple}}
+## 🍏 Fixing something on iOS
+{{#each green-apple}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if green-heart}}
+## 💚 Fixing CI Build
+{{#each green-heart}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if heavy-minus-sign}}
+## ➖ Removing a dependency
+{{#each heavy-minus-sign}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if heavy-plus-sign}}
+## ➕ Adding a dependency
+{{#each heavy-plus-sign}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if iphone}}
+## 📱 Working on responsive design
+{{#each iphone}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if alien}}
+## 👽 Updating code due to external API changes
+{{#each alien}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if lipstick}}
+## 💄 Updating the UI and style files
+{{#each lipstick}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if lock}}
+## 🔒 Fixing security issues
+{{#each lock}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if loud-sound}}
+## 🔊 Adding logs
+{{#each loud-sound}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if mag}}
+## 🔍 Improving SEO
+{{#each mag}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if mute}}
+## 🔇 Removing logs
+{{#each mute}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if ok-hand}}
+## 👌 Updating code due to code review changes
+{{#each ok-hand}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if package}}
+## 📦 Updating compiled files or packages
+{{#each package}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if page-facing-up}}
+## 📄 Adding or updating license
+{{#each page-facing-up}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if pencil}}
+## ✏️ Fixing typos
+{{#each pencil}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if pencil}}
+## 📝 Writing docs
+{{#each pencil}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if penguin}}
+## 🐧 Fixing something on Linux
+{{#each penguin}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if poop}}
+## 💩 Writing bad code that needs to be improved
+{{#each poop}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if pushpin}}
+## 📌 Pinning dependencies to specific versions
+{{#each pushpin}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if recycle}}
+## ♻️ Refactoring code
+{{#each recycle}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if rewind}}
+## ⏪ Reverting changes
+{{#each rewind}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if robot}}
+## 🤖 Fixing something on Android
+{{#each robot}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if rocket}}
+## 🚀 Deploying stuff
+{{#each rocket}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if rotating-light}}
+## 🚨 Removing linter warnings
+{{#each rotating-light}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if see-no-evil}}
+## 🙈 Adding or updating a gitignore file
+{{#each see-no-evil}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if ambulance}}
+## 🚑 Critical hotfix
+{{#each ambulance}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if speech-balloon}}
+## 💬 Updating text and literals
+{{#each speech-balloon}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if tada}}
+## 🎉 Initial commit
+{{#each tada}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if truck}}
+## 🚚 Moving or renaming files
+{{#each truck}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if whale}}
+## 🐳 Work about Docker
+{{#each whale}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if wheel-of-dharma}}
+## ☸️ Work about Kubernetes
+{{#each wheel-of-dharma}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if wheelchair}}
+## ♿️ Improving accessibility
+{{#each wheelchair}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if white-check-mark}}
+## ✅ Updating tests
+{{#each white-check-mark}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if wrench}}
+## 🔧 Changing configuration files
+{{#each wrench}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if zap}}
+## ⚡️ Improving performance
+{{#each zap}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{/with}}

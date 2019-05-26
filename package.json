@@ -1,0 +1,40 @@
+{
+  "name": "semantic-release-kroms",
+  "version": "1.0.0",
+  "author": "Romain KELIFA <romain.kelifa@gmail.com>",
+  "license": "MIT",
+  "main": "release.config.js",
+  "files": [
+    "release.config.js",
+    ".github-release"
+  ],
+  "engines": {
+    "node": ">= 8.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Roms1383/semantic-release-kroms.git"
+  },
+  "devDependencies": {
+    "ejs": "^2.6.1",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "peerDependencies": {
+    "@semantic-release/github": "^5.2.10",
+    "@semantic-release/npm": "^5.1.7",
+    "semantic-release": "^15.13.12",
+    "semantic-release-gitmoji": "^1.3.0"
+  },
+  "scripts": {
+    "lint": "eslint --fix '*.js'"
+  }
+}

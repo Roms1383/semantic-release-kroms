@@ -1,0 +1,32 @@
+{
+  "timezone": "Asia/Bangkok",
+  "schedule": [
+    "every weekend"
+  ],
+  "packageRules": [
+    {
+      "semanticCommitType": ":arrow_up:",
+      "semanticCommitScope": null
+    },
+    {
+      "updateTypes": [
+        "lockFileMaintenance",
+        "pin"
+      ],
+      "semanticCommitType": ":pushpin:"
+    },
+    {
+      "updateTypes": [
+        "rollback"
+      ],
+      "semanticCommitType": ":arrow_down:"
+    },
+    {
+      "updateTypes": [
+        "digest",
+        "bump"
+      ],
+      "semanticCommitType": ":bookmark:"
+    }
+  ]
+}

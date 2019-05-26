@@ -1,0 +1,21 @@
+const fs = require('fs')
+const path = require('path')
+const template = fs.readFileSync(path.resolve(__dirname, './.github-release'))
+module.exports = {
+  plugins: [
+    [
+      'semantic-release-gitmoji', {
+        releaseRules: {
+          major: [ ':boom:' ],
+          minor: [ ':sparkles:' ],
+          patch: [ <%- types %> ]
+        },
+        releaseNotes: {
+          template
+        }
+      }
+    ],
+    '@semantic-release/github',
+    '@semantic-release/npm'
+  ]
+}
