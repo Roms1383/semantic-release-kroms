@@ -2,10 +2,10 @@ const fs = require('fs')
 const path = require('path')
 const ejs = require('ejs')
 const { skip, sort } = require('./utils')
-const map = ({ emoji, description, name }) => ([
-  `{{#if ${name}}}`,
+const map = ({ emoji, description, code }) => ([
+  `{{#if ${code}}}`,
   ['##', emoji, description.replace('.', '')].join(' '),
-  `{{#each ${name}}}`,
+  `{{#each ${code}}}`,
   '- {{> commitTemplate}}',
   '{{/each}}',
   '{{/if}}'
