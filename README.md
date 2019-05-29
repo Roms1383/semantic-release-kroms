@@ -24,7 +24,7 @@ npm install semantic-release-kroms --save-dev
 Add a `.releaserc` at the root of your project with :
 ```json
 {
-  "plugins": ["semantic-release-kroms"]
+  "extends": ["semantic-release-kroms"]
 }
 ```
 
