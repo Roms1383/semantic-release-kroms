@@ -21,6 +21,13 @@ npm install semantic-release-kroms --save-dev
 
 ## Usage
 
+Add a `.releaserc` at the root of your project with :
+```json
+{
+  "plugins": ["semantic-release-kroms"]
+}
+```
+
 Use in your favorite CI to trigger semantic release, example can be found in the `.travis.yml` of this repository (this plugin uses itself to trigger its release too).
 
 ## Update
