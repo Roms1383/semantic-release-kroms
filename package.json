@@ -16,20 +16,25 @@
     "url": "https://github.com/Roms1383/semantic-release-kroms.git"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.6.1",
+    "@commitlint/cli": "^8.0.0",
     "@semantic-release/github": "^5.2.10",
     "@semantic-release/npm": "^5.1.7",
-    "commitlint-config-kroms": "^1.0.3",
+    "codacy-coverage": "^3.4.0",
+    "commitlint-config-kroms": "^1.1.0",
     "ejs": "^2.6.1",
     "eslint": "^5.16.0",
-    "eslint-config-kroms": "^1.0.1",
+    "eslint-config-kroms": "^1.0.3",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
+    "generator-kroms": "^1.3.2",
     "husky": "^2.3.0",
+    "jest": "^24.8.0",
     "lint-staged": "^8.1.7",
+    "remark-cli": "^6.0.1",
+    "remark-preset-lint-recommended": "^3.0.2",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
     "semantic-release": "^15.13.12",
@@ -42,7 +47,10 @@
     "semantic-release-gitmoji": "^1.3.0"
   },
   "scripts": {
-    "lint": "eslint --fix '*.js'",
-    "generate": "node src"
+    "lint": "yarn eslint '**/*.js' && yarn remark .",
+    "generate": "node src",
+    "test": "echo 'you should write unit-tests' && exit 0",
+    "coverage": "cat ./coverage/lcov.info | codacy-coverage",
+    "release": "yarn semantic-release"
   }
 }
