@@ -12,10 +12,7 @@
   "engines": {
     "node": ">= 8.10.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Roms1383/semantic-release-kroms.git"
-  },
+  "repository": "https://github.com/Roms1383/semantic-release-kroms.git",
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@semantic-release/github": "^5.2.10",
