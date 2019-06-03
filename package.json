@@ -3,6 +3,7 @@
   "version": "0.0.0-semantically-released",
   "author": "Romain KELIFA <romain.kelifa@gmail.com>",
   "license": "MIT",
+  "description": "Semantic release custom preset",
   "main": "release.config.js",
   "files": [
     "release.config.js",
