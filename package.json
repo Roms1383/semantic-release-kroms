@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-kroms",
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released",
   "author": "Romain KELIFA <romain.kelifa@gmail.com>",
   "license": "MIT",
   "main": "release.config.js",
@@ -19,11 +19,10 @@
     "@commitlint/cli": "^8.0.0",
     "@semantic-release/github": "^5.2.10",
     "@semantic-release/npm": "^5.1.7",
-    "codacy-coverage": "^3.4.0",
-    "commitlint-config-kroms": "^1.1.0",
+    "commitlint-config-kroms": "^1.1.1",
     "ejs": "^2.6.1",
     "eslint": "^5.16.0",
-    "eslint-config-kroms": "^1.0.3",
+    "eslint-config-kroms": "^1.1.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-node": "^9.1.0",
@@ -31,7 +30,6 @@
     "eslint-plugin-standard": "^4.0.0",
     "generator-kroms": "^1.6.1",
     "husky": "^2.3.0",
-    "jest": "^24.8.0",
     "lint-staged": "^8.1.7",
     "remark-cli": "^6.0.1",
     "remark-preset-lint-recommended": "^3.0.2",
@@ -49,8 +47,7 @@
   "scripts": {
     "lint": "yarn eslint '**/*.js' && yarn remark .",
     "generate": "node src",
-    "test": "echo 'you should write unit-tests' && exit 0",
-    "coverage": "cat ./coverage/lcov.info | codacy-coverage",
+    "test": "echo 'you should add unit-tests' && exit 0",
     "release": "yarn semantic-release"
   }
 }
