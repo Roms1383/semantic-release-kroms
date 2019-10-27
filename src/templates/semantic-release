@@ -6,9 +6,9 @@ module.exports = {
     [
       'semantic-release-gitmoji', {
         releaseRules: {
-          major: [ ':boom:' ],
-          minor: [ ':sparkles:' ],
-          patch: [ <%- types %> ]
+          major: [':boom:'],
+          minor: [':sparkles:'],
+          patch: [<%- types %>]
         },
         releaseNotes: {
           template
