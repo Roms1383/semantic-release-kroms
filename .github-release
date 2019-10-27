@@ -20,9 +20,9 @@
 {{/each}}
 {{/if}}
 
-{{#if :label:}}
-## 🏷️ Adding or updating types (Flow, TypeScript)
-{{#each :label:}}
+{{#if :lipstick:}}
+## 💄 Updating the UI and style files
+{{#each :lipstick:}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -209,16 +209,16 @@
 {{/each}}
 {{/if}}
 
-{{#if :alien:}}
-## 👽 Updating code due to external API changes
-{{#each :alien:}}
+{{#if :label:}}
+## 🏷️ Adding or updating types (Flow, TypeScript)
+{{#each :label:}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
 
-{{#if :lipstick:}}
-## 💄 Updating the UI and style files
-{{#each :lipstick:}}
+{{#if :alien:}}
+## 👽 Updating code due to external API changes
+{{#each :alien:}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -349,6 +349,13 @@
 {{/each}}
 {{/if}}
 
+{{#if :seedling:}}
+## 🌱 Adding or updating seed files
+{{#each :seedling:}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
 {{#if :ambulance:}}
 ## 🚑 Critical hotfix
 {{#each :ambulance:}}
@@ -366,6 +373,13 @@
 {{#if :tada:}}
 ## 🎉 Initial commit
 {{#each :tada:}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if :triangular_flag_on_post:}}
+## 🚩 Adding, updating, or removing feature flags
+{{#each :triangular_flag_on_post:}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
