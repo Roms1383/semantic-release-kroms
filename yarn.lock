@@ -1423,10 +1423,10 @@ commander@^2.20.0, commander@~2.20.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
 
-commitlint-config-kroms@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/commitlint-config-kroms/-/commitlint-config-kroms-1.1.5.tgz#92c4ca0b6a08896245096ccbf7b848fbcf35cf29"
-  integrity sha512-BGYkiSuUrSicueRbRQIE59Y8nTc5y0XIwuAXJ45Zs9230yYe+JmvluMMVo68DJAYJOaIy48lp4lOVrTuTI2ang==
+commitlint-config-kroms@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/commitlint-config-kroms/-/commitlint-config-kroms-1.1.7.tgz#eee3ef4ce9a86bf36b586928c0ed6e770a3c3e17"
+  integrity sha512-72fsnX3ltsQ6bBHDaBhfQ6dyblgJ2xaZIRvNdQZcZfgcHq77j10wqodPLlpc5s6qpvOpbE2/GmZtECqjv47XTA==
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -2159,10 +2159,10 @@ escodegen@1.x.x:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-kroms@^1.1.9:
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/eslint-config-kroms/-/eslint-config-kroms-1.1.9.tgz#2c3517a86454ef29f69699bf6370324a9d9e989c"
-  integrity sha512-13sM91C1i8U6PRmQXLjMdN03GjRu+SF1mg6w+trPoOGLzSemoYsVyoP8HTwe6w+G0m2pEcL42prhLmFSYpcfzg==
+eslint-config-kroms@^1.1.10:
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/eslint-config-kroms/-/eslint-config-kroms-1.1.10.tgz#7d395547ba997212b9321bdbf213c61de9216914"
+  integrity sha512-axcov+FUUHdBbrWaLFjjVjJ5A21aPY5vzEenyFzjcekP/5dyWbyJsYvjyrTQylDwmvihhDab4iPPXVvJ7mYS2w==
 
 eslint-config-standard@^14.1.0:
   version "14.1.0"
