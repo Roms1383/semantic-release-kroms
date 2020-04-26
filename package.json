@@ -29,7 +29,7 @@
     "generator-kroms": "^1.9.0",
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
-    "remark-cli": "^7.0.0",
+    "remark-cli": "^8.0.0",
     "remark-preset-lint-recommended": "^3.0.3",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
