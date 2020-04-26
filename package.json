@@ -30,7 +30,7 @@
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
     "remark-cli": "^7.0.0",
-    "remark-preset-lint-recommended": "^3.0.3",
+    "remark-preset-lint-recommended": "^4.0.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
     "semantic-release": "^15.13.28",
