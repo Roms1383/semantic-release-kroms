@@ -19,7 +19,7 @@
     "@semantic-release/github": "^7.0.0",
     "commitlint-config-kroms": "^1.1.7",
     "ejs": "^3.0.0",
-    "eslint": "^6.6.0",
+    "eslint": "^7.0.0",
     "eslint-config-kroms": "^1.1.12",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
