@@ -14,7 +14,7 @@
   },
   "repository": "https://github.com/Roms1383/semantic-release-kroms.git",
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
+    "@commitlint/cli": "^12.0.0",
     "@semantic-release/npm": "^7.0.0",
     "@semantic-release/github": "^7.0.0",
     "commitlint-config-kroms": "^1.1.7",
