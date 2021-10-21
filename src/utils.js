@@ -1,9 +1,6 @@
-const request = require('request-promise-native')
-const fetch = async () => request({
-  method: 'GET',
-  url: 'https://raw.githubusercontent.com/carloscuesta/gitmoji/master/src/data/gitmojis.json',
-  json: true
-})
+const axios = require('axios')
+const fetch = async () => axios.get('https://raw.githubusercontent.com/carloscuesta/gitmoji/master/src/data/gitmojis.json')
+.then(({ data }) => data)
 const major = [':boom:']
 const minor = [':sparkles:']
 const skip = [':bookmark:', ':construction:', ':twisted_rightwards_arrows:']
