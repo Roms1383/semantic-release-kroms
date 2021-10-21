@@ -3,7 +3,18 @@ const fetch = async () => axios.get('https://raw.githubusercontent.com/carloscue
 .then(({ data }) => data)
 const major = [':boom:']
 const minor = [':sparkles:']
-const skip = [':bookmark:', ':construction:', ':twisted_rightwards_arrows:']
+const skip = [
+  ':bookmark:',
+  ':construction:',
+  ':twisted_rightwards_arrows:',
+  ':monocle_face:',
+  ':seedling:',
+  ':busts_in_silhouette:',
+  ':bulb:',
+  ':construction_worker:',
+  ':green_heart:',
+  ':rocket:'
+]
 const priority = code => major.includes(code)
 ? 2
 : minor.includes(code)
