@@ -14,37 +14,37 @@
   },
   "repository": "https://github.com/Roms1383/semantic-release-kroms.git",
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@semantic-release/github": "^7.0.0",
-    "@semantic-release/npm": "^7.0.0",
+    "@commitlint/cli": "^13.2.1",
+    "@semantic-release/github": "^8.0.1",
+    "@semantic-release/npm": "^8.0.2",
     "axios": "^0.23.0",
-    "commitlint-config-kroms": "^1.1.7",
-    "ejs": "^3.0.0",
-    "eslint": "^7.0.0",
-    "eslint-config-kroms": "^1.1.12",
-    "eslint-config-standard": "^16.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^5.0.0",
-    "eslint-plugin-standard": "^4.0.1",
+    "commitlint-config-kroms": "^2.0.0",
+    "ejs": "^3.1.6",
+    "eslint": "^8.0.1",
+    "eslint-config-kroms": "^2.0.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
     "generator-kroms": "^1.9.0",
-    "husky": "^4.0.0",
-    "lint-staged": "^11.0.0",
-    "remark-cli": "^7.0.0",
-    "remark-preset-lint-recommended": "^3.0.3",
-    "semantic-release": "^17.0.0",
-    "semantic-release-gitmoji": "^1.3.2"
+    "husky": "^7.0.0",
+    "lint-staged": "^11.2.3",
+    "remark-cli": "^10.0.0",
+    "remark-preset-lint-recommended": "^6.1.1",
+    "semantic-release": "^18.0.0",
+    "semantic-release-gitmoji": "^1.4.2"
   },
   "peerDependencies": {
-    "@semantic-release/github": "^7.0.0",
-    "@semantic-release/npm": "^7.0.0",
-    "semantic-release": "^17.0.0",
-    "semantic-release-gitmoji": "^1.3.2"
+    "@semantic-release/github": "^8.0.1",
+    "@semantic-release/npm": "^8.0.2",
+    "semantic-release": "^18.0.0",
+    "semantic-release-gitmoji": "^1.4.2"
   },
   "scripts": {
     "lint": "yarn eslint '**/*.js' && yarn remark .",
     "generate": "node src",
     "test": "echo 'you should add unit-tests' && exit 0",
-    "release": "yarn semantic-release"
+    "release": "yarn semantic-release",
+    "prepare": "husky install"
   }
 }
