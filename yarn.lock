@@ -2076,9 +2076,9 @@ escape-string-regexp@^4.0.0:
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
 eslint-config-kroms@^2.0.0:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-kroms/-/eslint-config-kroms-2.0.3.tgz#407fc1bb2b2eacb37b46bd795d3770b92d5dcec2"
-  integrity sha512-P8hafFi/VhSSjpBxvGUewHi8r9XOqcWVhhOxt783orPVq2LBWHeKYikhZHPEbA69/1tv+4uLIKcMfwcOe0IbaA==
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-kroms/-/eslint-config-kroms-2.0.5.tgz#c0f3dbc666a55083069c1758a85714ff4528470b"
+  integrity sha512-wq/C5159yOONYICEvNIBUk1SHNoPYYvlD1LLJCzv+9PBMNwfrRwEGRq6vS4Z+2XHLOm+feA3yhK0dYSE+Fm48g==
 
 eslint-config-standard@^16.0.3:
   version "16.0.3"
