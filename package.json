@@ -31,13 +31,13 @@
     "lint-staged": "^11.2.3",
     "remark-cli": "^10.0.0",
     "remark-preset-lint-recommended": "^6.1.1",
-    "semantic-release": "^18.0.0",
+    "semantic-release": "^19.0.0",
     "semantic-release-gitmoji": "^1.4.2"
   },
   "peerDependencies": {
     "@semantic-release/github": "^8.0.1",
     "@semantic-release/npm": "^8.0.2",
-    "semantic-release": "^18.0.0",
+    "semantic-release": "^19.0.0",
     "semantic-release-gitmoji": "^1.4.2"
   },
   "scripts": {
